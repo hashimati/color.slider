@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:orientation="vertical" android:weightSum="1" android:background="#FFFFF1">
+<TextView android:textColor="#000000" android:id="@+id/textView1" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:text="Red"></TextView>
+<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout2" android:weightSum="1">
+    <SeekBar android:layout_height="wrap_content" android:max="255" android:id="@+id/redseekBar" android:layout_weight="0.95" android:layout_width="140dp" android:progress="31"></SeekBar>
+    <EditText android:enabled="false" android:gravity="center_vertical" android:maxLines="1" android:id="@+id/redText" android:layout_width="50dp" android:text="32" android:layout_weight="0.04" android:layout_height="wrap_content"></EditText>
+</LinearLayout>
+
+<TextView android:textColor="#000000" android:id="@+id/textView2" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:text="Blue"></TextView>
+<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout2" android:weightSum="1">
+    <SeekBar android:max="255"  android:progress="231" android:id="@+id/greenseekBar" android:layout_height="wrap_content" android:layout_width="140dp" android:layout_weight="0.95"></SeekBar>
+    <EditText android:enabled="false" android:gravity="center_vertical" android:maxLines="1" android:id="@+id/greenText" android:layout_width="50dp" android:text="231" android:layout_height="wrap_content"></EditText>
+</LinearLayout>
+
+<TextView android:textColor="#000000" android:id="@+id/textView3" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:text="Green"></TextView>
+<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"  android:id="@+id/linearLayout2" android:weightSum="1">
+    <SeekBar android:max="255" android:progress="132" android:id="@+id/blueseekBar" android:layout_height="wrap_content" android:layout_width="140dp" android:layout_weight="0.95"></SeekBar>
+    <EditText android:enabled="false" android:gravity="center_vertical" android:maxLines="1" android:id="@+id/blueText" android:layout_width="50dp" android:text="132" android:layout_height="wrap_content"></EditText>
+</LinearLayout>
+
+<TextView android:textColor="#000000" android:id="@+id/textView3" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:text="Alpha"></TextView>
+<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout2" android:weightSum="1">
+    <SeekBar  android:max="255" android:progress="255" android:id="@+id/alphaseekBar" android:layout_height="wrap_content" android:layout_width="140dp" android:layout_weight="0.95"></SeekBar>
+    <EditText android:enabled="false" android:gravity="center_vertical" android:maxLines="1" android:id="@+id/alphaText" android:layout_width="50dp" android:text="255" android:layout_height="wrap_content"></EditText>
+</LinearLayout>
+<View android:layout_width="wrap_content" android:id="@+id/ColorCanvas" android:background="#000000" android:layout_height="107dp" android:layout_weight="0.70"></View>
+<TextView android:textColor="#000000"  android:id="@+id/textView4" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:text="Written By Ahmed Al Hashmi &lt;hashimati.ahmed@gmail.com&gt;"></TextView>
+</LinearLayout>

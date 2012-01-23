@@ -2,6 +2,12 @@ package com.ahmed.colorSliderDemo;
 //Ahmed Al Hashmi project 
 //Mustafa Al-Mulla
 //Mustafa Ezzzzzzzzzat 2
+/**
+ * This a test for the pushing 
+ */
+
+
+
 
 import android.app.Activity;
 import android.graphics.Color;

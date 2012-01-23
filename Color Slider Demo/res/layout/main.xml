@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent" android:orientation="vertical" android:weightSum="1" android:background="#FFFFF1">
-<TextView android:textColor="#000000" android:id="@+id/textView1" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:text="Red"></TextView>
+<TextView android:textColor="#000011" android:id="@+id/textView1" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:text="Red"></TextView>
 <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout2" android:weightSum="1">
     <SeekBar android:layout_height="wrap_content" android:max="255" android:id="@+id/redseekBar" android:layout_weight="0.95" android:layout_width="140dp" android:progress="31"></SeekBar>
     <EditText android:enabled="false" android:gravity="center_vertical" android:maxLines="1" android:id="@+id/redText" android:layout_width="50dp" android:text="32" android:layout_weight="0.04" android:layout_height="wrap_content"></EditText>

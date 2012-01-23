@@ -1,6 +1,6 @@
 package com.ahmed.colorSliderDemo;
 //Ahmed Al Hashmi project 
-
+//Mustafa Al-Mulla
 
 import android.app.Activity;
 import android.graphics.Color;

@@ -3,6 +3,12 @@ package com.ahmed.colorSliderDemo;
 //Mustafa Al-Mulla
 //Mustafa Ezzzzzzzzzat 2
 
+
+
+
+/**
+ * this is a test to what i need to do
+ */
 import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;

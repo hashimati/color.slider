@@ -7,9 +7,7 @@ package com.ahmed.colorSliderDemo;
 
 
 /**
- * this is a test to what i need to do
- * can you see the changes i have done
- * have i done any changes since liast change
+ * I have done this change at 9:33am
  */
 import android.app.Activity;
 import android.graphics.Color;

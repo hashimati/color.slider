@@ -7,7 +7,7 @@ package com.ahmed.colorSliderDemo;
 
 
 /**
- * I have done this change at 9:33am
+ * I have done this change at 1:12am
  */
 import android.app.Activity;
 import android.graphics.Color;

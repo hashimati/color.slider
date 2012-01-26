@@ -7,7 +7,7 @@ package com.ahmed.colorSliderDemo;
 
 
 /**
- * Mustafa 3:35 pm
+ * Mustafa 3:54 pm
  */
 
 import android.app.Activity;
